@@ -383,7 +383,7 @@ if __name__ == '__main__':
         pfc = Performance(return_df).table()
         print(pfc)
     except KeyError:
-        print('交易不到啦幹')
+        print('No trade occur')
 
 
 
